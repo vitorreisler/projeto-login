@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*MOBILE FIRST*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background-image: linear-gradient(rgb(104, 0, 104) , skyblue );
+}
+main {
+    border: 2px solid red;
+    height: 100vh;
+}
+
+section#container {
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px  black;
+    width: 73vw;
+    height: 500px;
+    margin: 80px auto 30px auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+section#img {
+    height: 150px;
+}
+section#forms {
+    border: 1px solid green;
+    
+    height: 300px;
+    border-radius: 10px;
+
+}
+section#forms > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    font-weight: 700;
+}
+section#forms > p {
+    padding: 0 6px 13px 6px;
+    text-align: center;
+    font-size: .890rem;
+    padding-bottom: 13px ;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+section#forms > p.form {
+    border: 1px solid rgba(17, 0, 255, 0.973);
+    width: 60vw;
+    margin: auto;
+    }
+    span.material-symbols-outlined {
+        background-color: purple;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        color: white;
+        
+    }
+section#forms > p.form > input {
+    height: 35px;
+    width: 48vw;
+    border-radius: 7px;
+}
+input#entrar {
+    background-color: rgb(108, 146, 252);
+}
+input#entrar:hover {
+    background-color: rgb(68, 68, 247);
+    transition: .5s;
+}
+input#esqueciasenha:hover {
+    background-color: rgb(68, 68, 247);
+    transition: .5s;
+}
